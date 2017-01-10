@@ -1,0 +1,1 @@
+<?phpinclude "../config.php";// ceci est un exemple ca ne fonctionne pas a vous de coder la function !!$res = $DB->delete("account",array("id" => $_POST['id']));echo $res;exit;

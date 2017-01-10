@@ -1,0 +1,1 @@
+<?phpfunction crypt_Password( $pwd ){	return sha1('7@4^{71:6[65%1~)' . $pwd . '>2@%4$995-3>4[_2');}

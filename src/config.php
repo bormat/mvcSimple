@@ -1,0 +1,1 @@
+<?phpsession_start();// includeinclude './inc/fnc/fnc.php';include'./inc/fnc/fnc_debug.php'; // debug// connexion DB//$db = new PDO(DB_HOST.';'.DB_NAME, DB_LOGIN, DB_PASS);//$db->query("SET CHARACTER SET utf8");$db = null;//load model !include './models/m_login.php';//include './models/m_account.php';

@@ -1,0 +1,1 @@
+<?phpinclude "config.php";include "./inc/structure/header.php";!isset($_REQUEST['c']) ? $_controler = 'home' : $_controler = $_REQUEST['c'];switch ( $_controler ) {    case 'login' :        include "./controls/c_login.php";        break;    default :        include "./controls/c_home.php";        break;}include "./inc/structure/footer.php";
